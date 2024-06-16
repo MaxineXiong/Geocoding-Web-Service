@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SuperGeocoder</title>
+
+    <link rel="stylesheet" href="./static/main.css">
+    <link rel="icon" href="./static/assets/favicon.ico">
+  </head>
+  <body background = './static/assets/background.jpg'>
+    <div class="container">
+      <div class="row">
+        <h1>Welcome to SuperGeocoder</h1>
+      </div>
+      <div class="row" style='padding-bottom:0px;padding-top:0px;line-height:1.8'>
+        <p>
+            This online geocoding service effortlessly <strong>transforms all
+            address data within your files into precise latitude and longitude
+            coordinates</strong>.
+            Upon uploading your file, you can instantly preview your table on this
+            website or opt to download the file in its converted format.
+            Additionally, our mapping service enriches your experience by enabling
+            you to visualize the exact location of each address, offering deeper
+            insights into each site.
+        </p>
+        <p style='font-size:18px'>
+            To facilitate the file processing, please ensure that your file
+            includes at least one column that contains the keyword
+            <strong>address</strong> in its name, regardless of letter casing.
+            <a href="./example.html">View an example of a valid file format here.</a>
+        </p>
+        <p style='font-size:18px'>
+            We currently only support <strong>CSV</strong> and <strong>XLSX</strong>
+            file formats.
+        </p>
+      </div>
+      <div class="row">
+        <p style='font-size:16px'>
+            To begin, simply click the 'Choose file' button below to select your file, and then hit 'Submit' to start the upload process.
+        </p>
+        <form action='file_processed.html' method='POST' enctype="multipart/form-data">
+          <input name="uploaded_file" type="file" required class='file-uploader'><br><br>
+          <button type="submit" class='button'>Submit</button><br>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

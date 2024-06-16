@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>SuperGeocoder</title>
+  <link rel="stylesheet" href="./static/main.css">
+  <link rel="icon" href="./static/assets/favicon.ico">
+</head>
+<body background="./static/assets/background.jpg">
+  <div class="container">
+    <div class="row">
+      <h1>Welcome to SuperGeocoder</h1>
+    </div>
+    <div class="row" style='padding-bottom:0px;padding-top:0px'>
+      <div class="error-row">
+        <p class="error-msg">Error: The file cannot be processed.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <p style='font-size:18px'>Unfortunately, we are unable to process your file because it does not
+        contain any columns with the keyword <strong>address</strong> in their names,
+        irrespective of letter casing.
+      <br>
+      <p style='font-size:18px'>
+        Please rename the columns appropriately and reupload your file, or
+        click <a href="./example.html">here</a> to view an example of a
+        valid file format.
+      </p>
+    </div>
+
+    <div class="row">
+      <form action='file_processed.html' method='POST' enctype="multipart/form-data">
+        <input name="uploaded_file" type="file" required class='file-uploader'><br><br>
+        <button type="submit" class='button'>Submit</button><br>
+      </form>
+    </div>
+
+
+  </div>
+
+</body></html>

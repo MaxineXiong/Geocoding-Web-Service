@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SuperGeocoder</title>
+  <link rel="stylesheet" href="./static/main.css">
+  <link rel="icon" href="./static/assets/favicon.ico">
+</head>
+<body background="./static/assets/background.jpg">
+  <div class="container">
+    <div class="row">
+      <br><br><br>
+      <p style='font-size:30px'>The file <strong>{{filename}}</strong> has successfully been processed!</p>
+    </div>
+
+    <div class="row">
+      <p>Feel free to download your geocoded file by clicking on the button below</p><br>
+      <form class="file" action="file_downloaded.html" method="POST">
+        <button class='button'><strong>Download</strong></button>
+      </form>
+    </div>
+
+    <div class="row">
+      <a href="/" style='font-size:20px'>Back to home page</a>
+    </div>
+
+    <div class="row">
+      <strong>Your Geocoded Table Output</strong>
+      {{table | safe}}
+    </div>
+
+  </div>
+</body>
+</html>

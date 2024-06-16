@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  width: 63%;
+  margin: 0 auto;
+  opacity: 0.92;
+  filter: alpha(opacity=92);
+  padding-top: 30px;
+}
+
+div.row {
+  display:inline-block;
+  align-content: center;
+  text-align: center;
+  width: 100%;
+  padding: 40px 40px 30px 40px;
+  background-color: #ffffff;
+}
+
+div.csvexample {
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  font-family: inherit;
+  font-size: 18px;
+}
+
+p {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+div.error-row {
+  border: 0px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  background-color: #ff0000;
+}
+p.error-msg {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.button {
+    font-size: 25px;
+    padding: 10px 20px;
+    background-color: #414851;
+    color: white; /* White text color */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #222529;
+}
+
+.file-uploader {
+  font-size: 18px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+}
+
+.file-uploader:hover {
+  background-color: #e8e8e8;
+}
+
+/* General Data Table styles */
+.dataframe {
+    border-collapse: collapse; /* Ensures borders between cells are merged */
+    margin: 30px 0; /* Adds space around the table */
+    font-family: Arial, sans-serif;
+    font-size: 0.9em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Header styles */
+.thead th {
+    background-color: #414851;
+    color: #ffffff; /* White text color */
+    text-align: center; /* Aligns header text to the center */
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+/* Body styles */
+.tbody td {
+    border-bottom: 1px solid #dddddd; /* Light grey border for separating rows */
+    color: #333333; /* Dark grey text */
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+.tbody tr:hover {
+    background-color: #f1f1f1; /* Slightly lighter row highlight on mouse-hover */
+}
