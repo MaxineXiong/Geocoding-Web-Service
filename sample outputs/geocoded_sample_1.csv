@@ -1,12 +1,12 @@
-,Property Address,Area,Beds,Full Baths,Half Baths,Locality,Lot Size,Price,Property Address_latitude,Property Address_longitude
-0,0 Gateway,,,,,"Rock Springs, WY 82901",,"$725,000",61.577023,-149.255874
-1,1003 Winchester Blvd.,,4.0,4.0,,"Rock Springs, WY 82901",0.21 Acres,"$452,900",,
-2,3239 Spearhead Way,"3,076",4.0,3.0,1.0,"Rock Springs, WY 82901","Under 1/2 Acre, ","$379,900",,
-3,600 Talladega,"3,154",5.0,3.0,,"Rock Springs, WY 82901",,"$379,000",33.434936,-86.106204
-4,3457 Brisol Avenue,"3,236",5.0,3.0,,"Rock Springs, WY 82901",0.34 Acres,"$349,900",,
-5,234 Via Spoleto,"2,688",4.0,3.0,,"Rock Springs, WY 82901","Under 1/2 Acre, ","$330,000",42.7453344,12.7384305
-6,2425 Cripple Creek,"8,263",4.0,35.0,,"Rock Springs, WY 82901",,"$279,900",38.74569,-105.178358
-7,522 Emerald Street,"1,172",3.0,3.0,,"Rock Springs, WY 82901","Under 1/2 Acre, ","$254,000",,
-8,1302 Veteran's Drive,"1,932",4.0,2.0,,"Rock Springs, WY 82901",0.27 Acres,"$252,900",,
-9,343 Via Rucce,,3.0,2.0,1.0,"Rock Springs, WY 82901",0.16 Acres,"$219,900",41.592183016051,-109.268268015826
-10,913 Madison Dr,"1,344",3.0,2.0,,"Rock Springs, WY 82901","Under 1/2 Acre, ","$209,000",,
+,Event,Date and Time,Venue,Event Address,Lowest Price,Highest Price,Booking Status,Event Address_latitude,Event Address_longitude
+0,Feel music,10/06/2024 10:00,Opéra de Sydney,"#Bennelong Point Sydney, NSW 2000",0.0,0.0,Going fast,-33.85716,151.21496
+1,Harmony Festival Sydney 2024,10/06/2024 18:30,2 Australia Ave,"nue Sydney Olympic Park, NSW 2127",0.0,0.0,Sales end soon,-33.838519371,151.062384238
+2,Silent Disco Party Walk - Vivid Tours - Circular Quay,10/06/2024 18:30,Customs House,"31 Alfred St Sydney, NSW 2000",0.0,69.07,Sales end soon,-33.862198201875,151.210857206588
+3,VIVID SYDNEY Silent Disco Tour by DISCO LOCO,10/06/2024 19:00,Chinese Garden of Friendship,"Cnr Harbour Street Darling Harbour, NSW 2000",34.4,37.55,Sales end soon,-33.878333217219,151.203298567218
+4,Guitar School : Children - June,11/06/2024 16:00,Wetherill Park Library,561-583 Polding Street,0.0,0.0,Sales end soon,,
+5,Guitar School: Youth/Adults - June,11/06/2024 17:00,Wetherill Park Library,"561-583 Polding Street Wetherill Park, NSW 2164",0.0,0.0,Going fast,-33.858690375396,150.898744888091
+6,RINGO BINGO MUSIC BINGO CLARENDON TAVERN TUESDAYS,11/06/2024 19:00,Clarendon Tavern,"244 Hawkesbury Valley Way Clarendon, NSW 2756",,,Sales end soon,-33.608532600854,150.788797703939
+7,"Soda Tuesday - Free Drink on Arrival, $1 HotDogs & Musical Bingo",11/06/2024 19:00,The Soda Factory,"16 Wentworth Avenue Surry Hills, NSW 2010",0.0,0.0,Sales end soon,-33.877984091583,151.211789609497
+8,Tuesday Live Jazz,11/06/2024 19:30,185 Glebe Point Rd,"185 Glebe Point Road Glebe, NSW 2037",0.0,0.0,Sales end soon,-33.88061688928,151.187906214589
+9,Bondi Lines & Scary Canary Silent Disco Tuesday - Free Drink on Entry,11/06/2024 21:00,The Scary Canary,"469 Kent Street Sydney, NSW 2000",0.0,0.0,Sales end soon,-33.873062154219,151.204910413923
+10,Music Production Workshop with Heaps Decent,12/06/2024 16:00,Synergy Youth Centre,1003 Winchester Blvd.,0.0,0.0,Sales end soon,,
