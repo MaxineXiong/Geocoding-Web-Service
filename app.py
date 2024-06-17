@@ -64,7 +64,7 @@ def process_file():
 
                 full_map = folium.Map(
                                 location=(df.iloc[0][lat_col], df.iloc[0][lon_col]),
-                                zoom_start=15, tiles='openstreetmap',
+                                zoom_start=14, tiles='openstreetmap',
                                 control_scale=True
                                       )
                 fg = folium.FeatureGroup(name='all_points')
@@ -73,12 +73,12 @@ def process_file():
                     lat = row[lat_col]
                     lon = row[lon_col]
                     if (not math.isnan(lat)) and (not math.isnan(lon)):
-                        marker = folium.Marker(
-                                       location=(lat, lon),
-                                       popup=folium.Popup(row[col], parse_html=True),
-                                       icon=folium.Icon(color='blue')
-                                                )
-                        fg.add_child(marker)
+                        default_marker = folium.Marker(
+                                           location=(lat, lon),
+                                           popup=folium.Popup(row[col], parse_html=True),
+                                           icon=folium.Icon(color='blue')
+                                                       )
+                        fg.add_child(default_marker)
 
                 full_map.add_child(fg)
 
@@ -88,12 +88,24 @@ def process_file():
                     lat = row[lat_col]
                     lon = row[lon_col]
                     if (not math.isnan(lat)) and (not math.isnan(lon)):
-                        full_map.location = [lat, lon]
+                        featured_marker = folium.Marker(
+                                               location=(lat, lon),
+                                               popup=folium.Popup(row[col], parse_html=True),
+                                               icon=folium.Icon(color='red')
+                                                        )
+                        full_map.add_child(featured_marker)
 
+                        full_map.location = [lat, lon]
                         map_url = 'map_{}_lat={}_lon={}.html'  \
                                   .format(col.replace(' ', '_'), lat, lon)
-
                         full_map.save('./templates/'+map_url)
+
+                        default_marker = folium.Marker(
+                                           location=(lat, lon),
+                                           popup=folium.Popup(row[col], parse_html=True),
+                                           icon=folium.Icon(color='blue')
+                                                       )
+                        full_map.add_child(default_marker)
 
                         list_map_url.append(map_url)
                     else:
