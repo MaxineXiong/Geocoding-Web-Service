@@ -111,7 +111,7 @@ Or to run the web application locally on your computer by following these steps:
 5) Now run the geocoding web application by entering the following command in the Command Prompt:
     
     ```
-    python main.py
+    python app.py
     ```
     
 6) Open your web browser and go to `http://127.0.0.1:5000/` to access the web app locally.
