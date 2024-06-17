@@ -12,7 +12,7 @@
 
 ## Project Description
 
-[**SuperGeocoder**](https://supergeocoder-838a4a6bdd3b.herokuapp.com/) is an online geocoding service that effortlessly **transforms all address data within user-uploaded files into precise latitude and longitude coordinates**. Upon uploading a file, users can instantly preview the output table on the website or opt to download the file in its converted format. Additionally, the integrated mapping service enhances the user experience by enabling them to visualise the exact location of each address on a map, offering deeper insights into each site.
+[**SuperGeocoder**](https://supergeocoder-838a4a6bdd3b.herokuapp.com/) is an online geocoding service built in Python with [Flask](https://flask.palletsprojects.com/) that effortlessly **transforms all address data within user-uploaded files into precise latitude and longitude coordinates**. Upon uploading a file, users can instantly preview the output table on the website or opt to download the file in its converted format. Additionally, the integrated mapping service enhances the user experience by enabling them to visualise the exact location of each address on a map, offering deeper insights into each site.
 
 You can check out the **web service demo video** by clicking on the badge below:
 
