@@ -92,7 +92,7 @@ You can either access the **[SuperGeocoder](https://supergeocoder-838a4a6bdd3b.h
 
 [![SuperGeocoder](https://img.shields.io/badge/SuperGeocoder-DD0700?style=for-the-badge&logo=Google+Maps&logoColor=white)](https://supergeocoder-838a4a6bdd3b.herokuapp.com/)
 
-Or to run the web application locally on your computer by following these steps:
+Or run the web application locally on your computer by following these steps:
 
 1) Clone this repository to your local machine using the following command:
     
