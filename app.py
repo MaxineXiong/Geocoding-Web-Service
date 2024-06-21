@@ -10,6 +10,7 @@ import math
 import re
 
 
+
 # Initialize the Flask application
 app = Flask(__name__)
 # Generate a random secret key for the session
@@ -266,6 +267,7 @@ def map(map_url):
     # Render and return the HTML template corresponding to the map URL ...
     # ... provided in the route
     return render_template(map_url)
+
 
 
 # Check if this script is being run directly (and not imported as a module)
